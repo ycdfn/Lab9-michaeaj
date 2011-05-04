@@ -20,6 +20,8 @@ Scenario: User selects Global Thermonuclear War
 		Given the application is running
 		When I type "1" and press Enter
 		Then I should see "Boom!"
+
+
 		
 
 
