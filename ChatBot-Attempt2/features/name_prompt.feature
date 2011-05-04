@@ -15,12 +15,15 @@ Scenario: Prompt the user for name
 Scenario: Prompt the user for game
 		Given the application is running
 		Then I should view a list of games including "Global Thermonuclear War"
-
+		
 Scenario: User selects Global Thermonuclear War
 		Given the application is running
 		When I type "1" and press Enter
 		Then I should see "Boom!"
 		
+
+
+
 	
 		
 		
