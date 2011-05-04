@@ -1,1 +1,5 @@
-puts 'What is your name?'
+STDOUT.sync = true
+
+puts "What is your name?"
+name = gets.chomp
+puts "Hello, #{name}!"

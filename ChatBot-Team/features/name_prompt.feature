@@ -11,3 +11,7 @@ Scenario: Prompt the user for name
 Given the application is running
 When I type "Tim" and press Enter
 Then I should see "Hello, Tim!"
+
+Scenario: Provide user with list of games
+Given the application is running
+
