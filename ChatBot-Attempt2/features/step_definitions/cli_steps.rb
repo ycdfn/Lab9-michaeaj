@@ -9,3 +9,7 @@ end
 When /^I type "([^"]*)" and press Enter$/ do |text|
 	type(text)
 end
+
+Then /^I should view a list of games including "([^""]*)"$/ do |text|
+	assert_partial_output(text)
+end
