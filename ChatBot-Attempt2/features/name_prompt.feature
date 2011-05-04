@@ -20,6 +20,13 @@ Scenario: User selects Global Thermonuclear War
 		Given the application is running
 		When I type "1" and press Enter
 		Then I should see "Boom!"
+		
+Scenario: User does not select Global Thermonuclear War
+		Given the application is running
+		When I type "2" and press Enter
+		Then I should see "I do not want to play that. Goodbye."
+
+
 
 
 		
