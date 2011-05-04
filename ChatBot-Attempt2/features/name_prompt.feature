@@ -9,7 +9,8 @@ Scenario: Verify the prompt shows up
 
 Scenario: Prompt the user for name
 		Given the application is running
-		When I type "Tim" and press Enter
+		And I see "What is your name?"
+		And I type "Tim" and press Enter
 		Then I should see "Hello, Tim!"
 
 Scenario: Prompt the user for game

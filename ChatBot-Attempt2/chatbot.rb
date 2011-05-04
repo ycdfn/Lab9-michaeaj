@@ -1,4 +1,5 @@
 STDOUT.sync = true
+
 puts 'What is your name?'
 name = gets.chomp
 puts 'Hello, #{name}!'
@@ -13,4 +14,6 @@ selection = gets.chomp
 
 if selection == '1'
 	puts 'Boom!'
+else
+	puts 'I do not want to play that. Goodbye.'
 end
